@@ -1,4 +1,4 @@
-Connection for i2c to nodemcu
+Connection for I2C Module to nodemcu
 
 VCC --> 3V or Vin
 GND --> GND
