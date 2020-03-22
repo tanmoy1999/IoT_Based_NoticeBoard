@@ -8,8 +8,8 @@ LiquidCrystal_I2C lcd(0x3F, 2, 1, 0, 4, 5, 6, 7, 3, POSITIVE);
 
 AsyncWebServer server(80);
 
-const char* ssid = "D-Link_DIR-600M";  //wifi ssid
-const char* password = "alliswell";   //wifi password
+const char* ssid = "*********";  //wifi ssid
+const char* password = "*********";   //wifi password
 
 const char* PARAM_INPUT_1 = "input1";
 
@@ -17,7 +17,7 @@ const char index_html[] PROGMEM = R"rawliteral(
 <!DOCTYPE HTML><html><head>
   <title>Smart Notice Board</title>
   <meta name="viewport" content="width=device-width, initial-scale=5">
-<p> <font size="9" face="sans-serif"> <marquee> Smart Notice Board </marquee> </font> </p>
+<p> <font size="9" face="sans-serif"> <marquee> IoT Based Notice Board </marquee> </font> </p>
   </head><body><center>
   <form action="/get">
     Enter Text to Display: <input type="text" name="input1">
